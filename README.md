@@ -2,6 +2,10 @@
 
 Course notes and original study examples organized around electrical engineering at Toronto Metropolitan University.
 
+[Engineering walkthrough](ENGINEERING.md)
+
+The divider example exposes output resistance: a 10 kΩ load changes a nominal 2.5 V output to 1.6667 V. The engineering notes derive that result, connect RC frequency and step responses, and map model assumptions to tests.
+
 Start with [circuit analysis](courses/ELE202/), [electronic circuits](courses/ELE404/), [digital systems](courses/COE328/), or [software systems](courses/COE318/). The [Python examples](examples/) calculate resistor-divider loading and the response of an ideal RC low-pass filter.
 
 Each course page links to an official TMU course description. The examples were prepared for this repository; they are study illustrations rather than submitted assignments or measured hardware results.
