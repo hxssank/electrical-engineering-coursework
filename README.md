@@ -6,6 +6,20 @@ Start with [circuit analysis](courses/ELE202/), [electronic circuits](courses/EL
 
 Each course page links to an official TMU course description. The examples were prepared for this repository; they are study illustrations rather than submitted assignments or measured hardware results.
 
+## Review the engineering decisions
+
+The runnable examples connect equations to explicit input rules and numerical edge cases:
+
+| Entry point | What to inspect |
+| --- | --- |
+| [`divider_output`](examples/circuits.py) | Optional load resistance changes the divider ratio. A 5 V, 10 kΩ / 10 kΩ divider falls from 2.5 V to 1.6667 V with a 10 kΩ load. |
+| [`rc_cutoff` and `rc_magnitude`](examples/circuits.py) | SI-unit calculations for an unloaded first-order filter. The magnitude at cutoff is 1/√2. |
+| [`rc_step`](examples/circuits.py) | `expm1` evaluates the charging response without subtracting two nearly equal numbers at short times. |
+| [Tests](tests/test_circuits.py) | Positive component values, finite inputs, negative-voltage behavior, open-load limits, and floating-point overflow or underflow in the time constant. |
+| [Course catalog](courses.json) | Structured course codes, titles, and references for navigation. |
+
+The course pages explain topics and worked examples. The Python examples are the executable portion. Neither the notes nor calculated values establish measured circuit performance.
+
 ## Circuits, electronics, and digital design
 
 | Course | Subject |
@@ -58,10 +72,22 @@ Each course page links to an official TMU course description. The examples were 
 
 ## Run the circuit examples
 
-The calculations use the Python standard library. From the repository root:
+Use Python 3.11 or later. The calculations use the standard library. From the repository root:
 
 ```bash
 python examples/circuits.py
 ```
 
 The example README explains the equations, units, model assumptions, and test commands. [courses.json](courses.json) provides the course catalog as structured data.
+## Check the examples
+
+```bash
+python -m pip install pytest ruff
+python -m pytest
+ruff check examples tests
+ruff format --check examples tests
+```
+
+The test cases exercise equations and invalid inputs. Component tolerances, parasitic effects, and measured frequency sweeps remain outside these ideal models.
+
+[Recruiter portfolio](https://github.com/hxssank/recruiter-portfolio)
