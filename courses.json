@@ -1,0 +1,127 @@
+[
+  {
+    "code": "CEN100",
+    "title": "Introduction to Engineering",
+    "path": "courses/CEN100/README.md"
+  },
+  {
+    "code": "CEN800",
+    "title": "Law and Ethics in Engineering Practice",
+    "path": "courses/CEN800/README.md"
+  },
+  {
+    "code": "CHY102",
+    "title": "General Chemistry",
+    "path": "courses/CHY102/README.md"
+  },
+  {
+    "code": "CMN432",
+    "title": "Communication in the Engineering Professions",
+    "path": "courses/CMN432/README.md"
+  },
+  {
+    "code": "COE318",
+    "title": "Software Systems",
+    "path": "courses/COE318/README.md"
+  },
+  {
+    "code": "COE328",
+    "title": "Digital Systems",
+    "path": "courses/COE328/README.md"
+  },
+  {
+    "code": "COE428",
+    "title": "Engineering Algorithms and Data Structures",
+    "path": "courses/COE428/README.md"
+  },
+  {
+    "code": "CPS118",
+    "title": "Introductory Programming for Scientists",
+    "path": "courses/CPS118/README.md"
+  },
+  {
+    "code": "CPS188",
+    "title": "Computer Programming Fundamentals",
+    "path": "courses/CPS188/README.md"
+  },
+  {
+    "code": "ECN440",
+    "title": "Economic Issues in Financial Markets",
+    "path": "courses/ECN440/README.md"
+  },
+  {
+    "code": "ECN801",
+    "title": "Principles of Engineering Economics",
+    "path": "courses/ECN801/README.md"
+  },
+  {
+    "code": "ELE202",
+    "title": "Electric Circuit Analysis",
+    "path": "courses/ELE202/README.md"
+  },
+  {
+    "code": "ELE302",
+    "title": "Electric Networks",
+    "path": "courses/ELE302/README.md"
+  },
+  {
+    "code": "ELE401",
+    "title": "Electric and Magnetic Fields",
+    "path": "courses/ELE401/README.md"
+  },
+  {
+    "code": "ELE404",
+    "title": "Electronic Circuits I",
+    "path": "courses/ELE404/README.md"
+  },
+  {
+    "code": "MTH110",
+    "title": "Discrete Mathematics I",
+    "path": "courses/MTH110/README.md"
+  },
+  {
+    "code": "MTH140",
+    "title": "Calculus I",
+    "path": "courses/MTH140/README.md"
+  },
+  {
+    "code": "MTH141",
+    "title": "Linear Algebra",
+    "path": "courses/MTH141/README.md"
+  },
+  {
+    "code": "MTH240",
+    "title": "Calculus II",
+    "path": "courses/MTH240/README.md"
+  },
+  {
+    "code": "MTH312",
+    "title": "Differential Equations and Vector Calculus",
+    "path": "courses/MTH312/README.md"
+  },
+  {
+    "code": "MTH314",
+    "title": "Discrete Mathematics for Engineers",
+    "path": "courses/MTH314/README.md"
+  },
+  {
+    "code": "MTL200",
+    "title": "Materials Science Fundamentals",
+    "path": "courses/MTL200/README.md"
+  },
+  {
+    "code": "PCS125",
+    "title": "Physics: Waves and Fields",
+    "path": "courses/PCS125/README.md"
+  },
+  {
+    "code": "PCS211",
+    "title": "Physics: Mechanics",
+    "path": "courses/PCS211/README.md"
+  },
+  {
+    "code": "PCS224",
+    "title": "Solid State Physics",
+    "path": "courses/PCS224/README.md"
+  }
+]
